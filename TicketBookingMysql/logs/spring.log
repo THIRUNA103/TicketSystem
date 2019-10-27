@@ -1,0 +1,1387 @@
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Application shutdown requested.
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 13924 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -No active profile set, falling back to default profiles: default
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 50ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$15a57059] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 8082 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 1914 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 8082 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 4.563 seconds (JVM running for 5.46)
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 12 ms
+2019-10-14 [http-nio-8082-exec-1] -HHH000397: Using ASTQueryTranslatorFactory
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 12628 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -No active profile set, falling back to default profiles: default
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 69ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$587846f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 8082 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 3167 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 8082 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 7.198 seconds (JVM running for 9.043)
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 30 ms
+2019-10-14 [http-nio-8082-exec-2] -HHH000397: Using ASTQueryTranslatorFactory
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Application shutdown requested.
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 672 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -The following profiles are active: t1
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 49ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cdd7ff32] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 9090 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 1808 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 9090 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 4.934 seconds (JVM running for 6.024)
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 13 ms
+2019-10-14 [http-nio-9090-exec-1] -HHH000397: Using ASTQueryTranslatorFactory
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Application shutdown requested.
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 4200 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -The following profiles are active: t1
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 47ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$da54708e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 9090 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 1810 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 9090 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 4.751 seconds (JVM running for 5.596)
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 10 ms
+2019-10-14 [http-nio-9090-exec-1] -HHH000397: Using ASTQueryTranslatorFactory
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Application shutdown requested.
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 7776 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -No active profile set, falling back to default profiles: default
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 54ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e7341035] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 8082 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 1851 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ticketBookingController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'welcome.message' in value "${welcome.message}"
+2019-10-14 [restartedMain] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [restartedMain] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Stopping service [Tomcat]
+2019-10-14 [restartedMain] -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-14 [restartedMain] -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ticketBookingController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'welcome.message' in value "${welcome.message}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:382)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.naren.TicketBookingMysql.TicketBookingApplication.main(TicketBookingApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'welcome.message' in value "${welcome.message}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	... 22 common frames omitted
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 1984 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -No active profile set, falling back to default profiles: default
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 49ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8f7912a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 8082 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 1819 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 8082 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 4.603 seconds (JVM running for 5.726)
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 10 ms
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 11308 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -The following profiles are active: d2
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 57ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e3016eb6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 8082 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 1948 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -Unable to start LiveReload server
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Failed to start component [Connector[HTTP/1.1-8082]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.naren.TicketBookingMysql.TicketBookingApplication.main(TicketBookingApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 19 common frames omitted
+2019-10-14 [restartedMain] -Stopping service [Tomcat]
+2019-10-14 [restartedMain] -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-14 [restartedMain] -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8082 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8082, or configure this application to listen on another port.
+
+2019-10-14 [restartedMain] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [restartedMain] -HikariPool-1 - Shutdown completed.
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Application shutdown requested.
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 8168 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -The following profiles are active: d2
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 61ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7eb42ae3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 8082 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 2054 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 8082 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 4.823 seconds (JVM running for 5.678)
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 9 ms
+2019-10-14 [Thread-6] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [Thread-6] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [Thread-6] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [Thread-6] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 6052 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -The following profiles are active: d2
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 8168 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -The following profiles are active: d2
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 10ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7eb42ae3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 95ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 8082 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 854 ms
+2019-10-14 [restartedMain] -HikariPool-2 - Starting...
+2019-10-14 [restartedMain] -HikariPool-2 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$58977f69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 8082 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 2.078 seconds (JVM running for 121.189)
+2019-10-14 [restartedMain] -Condition evaluation unchanged
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 8082 (http)
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 9 ms
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 2848 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -Unable to start LiveReload server
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Failed to start component [Connector[HTTP/1.1-8082]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.naren.TicketBookingMysql.TicketBookingApplication.main(TicketBookingApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 19 common frames omitted
+2019-10-14 [restartedMain] -Stopping service [Tomcat]
+2019-10-14 [restartedMain] -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-14 [restartedMain] -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8082 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8082, or configure this application to listen on another port.
+
+2019-10-14 [restartedMain] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [restartedMain] -HikariPool-1 - Shutdown completed.
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Application shutdown requested.
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-2 - Shutdown initiated...
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-2 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 9452 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -The following profiles are active: d2
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 47ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd1456e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 8082 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 1840 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 8082 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 4.729 seconds (JVM running for 5.791)
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 15 ms
+2019-10-14 [RMI TCP Connection(5)-127.0.0.1] -Application shutdown requested.
+2019-10-14 [RMI TCP Connection(5)-127.0.0.1] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [RMI TCP Connection(5)-127.0.0.1] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [RMI TCP Connection(5)-127.0.0.1] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [RMI TCP Connection(5)-127.0.0.1] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 9948 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -The following profiles are active: d2
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 54ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$58977f69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 8082 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 1832 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 8082 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 5.099 seconds (JVM running for 6.114)
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 8 ms
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Application shutdown requested.
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 11464 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -No active profile set, falling back to default profiles: default
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 48ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$44e30e1b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 8082 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 2286 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 8082 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 5.584 seconds (JVM running for 6.454)
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 7 ms
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Application shutdown requested.
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 5952 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -The following profiles are active: t1
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 47ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5508b3b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 9090 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 1757 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 9090 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 4.609 seconds (JVM running for 5.889)
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 8 ms
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Application shutdown requested.
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 8916 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -The following profiles are active: t1
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 50ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$17199886] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 9090 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 2287 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 9090 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 5.153 seconds (JVM running for 5.973)
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 10 ms
+2019-10-14 [http-nio-9090-exec-1] -HHH000397: Using ASTQueryTranslatorFactory
+2019-10-14 [HikariPool-1 housekeeper] -HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m45s530ms839µs400ns).
+2019-10-14 [RMI TCP Connection(6)-127.0.0.1] -Application shutdown requested.
+2019-10-14 [RMI TCP Connection(6)-127.0.0.1] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [RMI TCP Connection(6)-127.0.0.1] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [RMI TCP Connection(6)-127.0.0.1] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [RMI TCP Connection(6)-127.0.0.1] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 9528 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -The following profiles are active: t1
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 55ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a7ce2b66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 9090 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 2225 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 9090 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 5.039 seconds (JVM running for 6.364)
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 11 ms
+2019-10-14 [http-nio-9090-exec-2] -HHH000397: Using ASTQueryTranslatorFactory
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Application shutdown requested.
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 11716 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -The following profiles are active: t1
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 58ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9adcb8c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 7070 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 2146 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 7070 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 5.494 seconds (JVM running for 6.54)
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 11 ms
+2019-10-14 [Thread-6] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [Thread-6] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [Thread-6] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [Thread-6] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 11716 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -The following profiles are active: t1
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 11ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9adcb8c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 7070 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 1572 ms
+2019-10-14 [restartedMain] -HikariPool-2 - Starting...
+2019-10-14 [restartedMain] -HikariPool-2 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 7070 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 2.502 seconds (JVM running for 3136.264)
+2019-10-14 [restartedMain] -Condition evaluation unchanged
+2019-10-14 [Thread-11] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [Thread-11] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [Thread-11] -HikariPool-2 - Shutdown initiated...
+2019-10-14 [Thread-11] -HikariPool-2 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 8976 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -The following profiles are active: t1
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 45ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$47c603d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 9090 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 1824 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -
+
+Using generated security password: 1532a06a-d8f1-47b1-9b21-56ec2683977f
+
+2019-10-14 [restartedMain] -Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d18eaa0, org.springframework.security.web.context.SecurityContextPersistenceFilter@114a16a6, org.springframework.security.web.header.HeaderWriterFilter@33c7adfe, org.springframework.security.web.csrf.CsrfFilter@6c33e41c, org.springframework.security.web.authentication.logout.LogoutFilter@5c828608, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@72c6562c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5b91efda, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7f6ff680, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@25d74dd4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1bf562b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@335534b6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10723143, org.springframework.security.web.session.SessionManagementFilter@51337e2c, org.springframework.security.web.access.ExceptionTranslationFilter@205a1abb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@aed6872]
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 9090 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 5.012 seconds (JVM running for 5.933)
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 10 ms
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Application shutdown requested.
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 9212 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -No active profile set, falling back to default profiles: default
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 44ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7fdfce64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 8082 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 1687 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -
+
+Using generated security password: aced0103-e987-4f39-8fe0-39bc7e3befcc
+
+2019-10-14 [restartedMain] -Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5510ada9, org.springframework.security.web.context.SecurityContextPersistenceFilter@5bae56fd, org.springframework.security.web.header.HeaderWriterFilter@6a0b3e6d, org.springframework.security.web.csrf.CsrfFilter@16f04847, org.springframework.security.web.authentication.logout.LogoutFilter@7829d3e7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@457f1bef, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@627d8e8d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@386c72e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@519beaeb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@399a9c22, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50cd17ac, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@484fdd4a, org.springframework.security.web.session.SessionManagementFilter@3ecd6f23, org.springframework.security.web.access.ExceptionTranslationFilter@51b80be, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@58e7a799]
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 8082 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 4.444 seconds (JVM running for 5.414)
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 8 ms
+2019-10-14 [http-nio-8082-exec-7] -HHH000397: Using ASTQueryTranslatorFactory
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Application shutdown requested.
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 11084 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -No active profile set, falling back to default profiles: default
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 49ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c0c0a4e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 8082 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 1736 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c811d2c, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e04eef5, org.springframework.security.web.header.HeaderWriterFilter@547a19ea, org.springframework.security.web.csrf.CsrfFilter@19a34753, org.springframework.security.web.authentication.logout.LogoutFilter@232c9b11, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3368877, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@11943936, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@447f171b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@319b923, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@364293cd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c7016f0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51e96c7b, org.springframework.security.web.session.SessionManagementFilter@2291b569, org.springframework.security.web.access.ExceptionTranslationFilter@d1eaa9f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53722259]
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 8082 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 4.885 seconds (JVM running for 5.656)
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 8 ms
+2019-10-14 [http-nio-8082-exec-1] -HHH000397: Using ASTQueryTranslatorFactory
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Application shutdown requested.
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 14120 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -No active profile set, falling back to default profiles: default
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 56ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$81be3b2f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 8082 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 2358 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@568222fb, org.springframework.security.web.context.SecurityContextPersistenceFilter@29575ff, org.springframework.security.web.header.HeaderWriterFilter@3e4d38b4, org.springframework.security.web.authentication.logout.LogoutFilter@360e319f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65e72fab, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@30e8eb70, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21f0f605, org.springframework.security.web.session.SessionManagementFilter@da8e227, org.springframework.security.web.access.ExceptionTranslationFilter@7447392f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@16e24ff7]
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 8082 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 5.463 seconds (JVM running for 6.436)
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 9 ms
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Application shutdown requested.
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 10608 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -No active profile set, falling back to default profiles: default
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 60ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$615ce267] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 8082 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 1969 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67e41f90, org.springframework.security.web.context.SecurityContextPersistenceFilter@6079ffb3, org.springframework.security.web.header.HeaderWriterFilter@79b36285, org.springframework.security.web.authentication.logout.LogoutFilter@d679267, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@398ed121, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@12b6cf92, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3c4cd5ff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@627578a1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@545d61b9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c8cc87f, org.springframework.security.web.session.SessionManagementFilter@30923350, org.springframework.security.web.access.ExceptionTranslationFilter@22f55b86, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d9021e7]
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 13 ms
+2019-10-14 [restartedMain] -Tomcat started on port(s): 8082 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 5.589 seconds (JVM running for 6.755)
+2019-10-14 [http-nio-8082-exec-10] -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.IllegalArgumentException: There is no PasswordEncoder mapped for the id "null"
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder$UnmappedIdPasswordEncoder.matches(DelegatingPasswordEncoder.java:244)
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder.matches(DelegatingPasswordEncoder.java:198)
+	at org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$LazyPasswordEncoder.matches(AuthenticationConfiguration.java:289)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.additionalAuthenticationChecks(DaoAuthenticationProvider.java:90)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:166)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:200)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:94)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-10-14 [http-nio-8082-exec-10] -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2019-10-14 [http-nio-8082-exec-3] -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.IllegalArgumentException: There is no PasswordEncoder mapped for the id "null"
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder$UnmappedIdPasswordEncoder.matches(DelegatingPasswordEncoder.java:244)
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder.matches(DelegatingPasswordEncoder.java:198)
+	at org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$LazyPasswordEncoder.matches(AuthenticationConfiguration.java:289)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.additionalAuthenticationChecks(DaoAuthenticationProvider.java:90)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:166)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:200)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:94)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-10-14 [http-nio-8082-exec-3] -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2019-10-14 [http-nio-8082-exec-3] -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.IllegalArgumentException: There is no PasswordEncoder mapped for the id "null"
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder$UnmappedIdPasswordEncoder.matches(DelegatingPasswordEncoder.java:244)
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder.matches(DelegatingPasswordEncoder.java:198)
+	at org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$LazyPasswordEncoder.matches(AuthenticationConfiguration.java:289)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.additionalAuthenticationChecks(DaoAuthenticationProvider.java:90)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:166)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:200)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:94)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-10-14 [http-nio-8082-exec-3] -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2019-10-14 [Thread-5] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [Thread-5] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [Thread-5] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [Thread-5] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 13144 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -No active profile set, falling back to default profiles: default
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 10608 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -No active profile set, falling back to default profiles: default
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 10ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$615ce267] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 8082 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 892 ms
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 66ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 2452 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -No active profile set, falling back to default profiles: default
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 121ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a60a6910] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 8082 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 1970 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ca5ed21, org.springframework.security.web.context.SecurityContextPersistenceFilter@76b43bb3, org.springframework.security.web.header.HeaderWriterFilter@2d298579, org.springframework.security.web.authentication.logout.LogoutFilter@3ddc328d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@67687e0c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@26c345bb, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@399c8302, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c266953, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5f295190, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22b50c61, org.springframework.security.web.session.SessionManagementFilter@251c0d27, org.springframework.security.web.access.ExceptionTranslationFilter@78c92777, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7bdc503f]
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 8082 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 4.755 seconds (JVM running for 5.56)
+2019-10-14 [RMI TCP Connection(2)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(2)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(2)-127.0.0.1] -Completed initialization in 11 ms
+2019-10-14 [http-nio-8082-exec-2] -HHH000397: Using ASTQueryTranslatorFactory
+2019-10-14 [RMI TCP Connection(4)-127.0.0.1] -Application shutdown requested.
+2019-10-14 [RMI TCP Connection(4)-127.0.0.1] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [RMI TCP Connection(4)-127.0.0.1] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [RMI TCP Connection(4)-127.0.0.1] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [RMI TCP Connection(4)-127.0.0.1] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 4368 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -No active profile set, falling back to default profiles: default
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 68ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c7ab415a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 8082 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 2405 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61c2effc, org.springframework.security.web.context.SecurityContextPersistenceFilter@33a8e79a, org.springframework.security.web.header.HeaderWriterFilter@16a43f93, org.springframework.security.web.authentication.logout.LogoutFilter@7bd8454d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@337c5210, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3b8aff34, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@300cab2f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e01eeb1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@18a299e4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d212e5b, org.springframework.security.web.session.SessionManagementFilter@6f47d015, org.springframework.security.web.access.ExceptionTranslationFilter@6439d0f0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7dced848]
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 8082 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 5.401 seconds (JVM running for 6.379)
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 273 ms
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Application shutdown requested.
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 1732 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -No active profile set, falling back to default profiles: default
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 48ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d4349c40] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 8082 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 1749 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@304e0d10, org.springframework.security.web.context.SecurityContextPersistenceFilter@128532ae, org.springframework.security.web.header.HeaderWriterFilter@33ca9493, org.springframework.security.web.authentication.logout.LogoutFilter@14c93dde, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3a516dd4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@213f4b61, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3f224587, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b5e68e7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@201cbd77, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6a0e9b98, org.springframework.security.web.session.SessionManagementFilter@6ed6d06c, org.springframework.security.web.access.ExceptionTranslationFilter@1affe3b2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@45568d71]
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 8082 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 4.58 seconds (JVM running for 5.43)
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 11 ms
+2019-10-14 [http-nio-8082-exec-3] -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.IllegalArgumentException: There is no PasswordEncoder mapped for the id "null"
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder$UnmappedIdPasswordEncoder.matches(DelegatingPasswordEncoder.java:244)
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder.matches(DelegatingPasswordEncoder.java:198)
+	at org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$LazyPasswordEncoder.matches(AuthenticationConfiguration.java:289)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.additionalAuthenticationChecks(DaoAuthenticationProvider.java:90)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:166)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:200)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:94)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-10-14 [http-nio-8082-exec-3] -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Application shutdown requested.
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown initiated...
+2019-10-14 [RMI TCP Connection(3)-127.0.0.1] -HikariPool-1 - Shutdown completed.
+2019-10-14 [restartedMain] -Starting TicketBookingApplication on DESKTOP-FOLSTP2 with PID 5036 (D:\javaX\Hibernet\TicketBookingMysql\target\classes started by dell in D:\javaX\Hibernet\TicketBookingMysql)
+2019-10-14 [restartedMain] -No active profile set, falling back to default profiles: default
+2019-10-14 [restartedMain] -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-10-14 [restartedMain] -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-10-14 [restartedMain] -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-14 [restartedMain] -Finished Spring Data repository scanning in 51ms. Found 1 repository interfaces.
+2019-10-14 [restartedMain] -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4cb8114] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 [restartedMain] -Tomcat initialized with port(s): 8082 (http)
+2019-10-14 [restartedMain] -Starting service [Tomcat]
+2019-10-14 [restartedMain] -Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-14 [restartedMain] -Initializing Spring embedded WebApplicationContext
+2019-10-14 [restartedMain] -Root WebApplicationContext: initialization completed in 1828 ms
+2019-10-14 [restartedMain] -HikariPool-1 - Starting...
+2019-10-14 [restartedMain] -HikariPool-1 - Start completed.
+2019-10-14 [restartedMain] -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-14 [restartedMain] -HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-14 [restartedMain] -HHH000206: hibernate.properties not found
+2019-10-14 [restartedMain] -HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-14 [restartedMain] -HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-10-14 [restartedMain] -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-14 [restartedMain] -LiveReload server is running on port 35729
+2019-10-14 [restartedMain] -Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@439e87b7, org.springframework.security.web.context.SecurityContextPersistenceFilter@32bbf1d9, org.springframework.security.web.header.HeaderWriterFilter@3b8f2ce5, org.springframework.security.web.authentication.logout.LogoutFilter@7a3c2ea6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6a414bb5, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@47cce49c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@25110206, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@423e7b9d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3bf0082, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@595120e, org.springframework.security.web.session.SessionManagementFilter@54a7b, org.springframework.security.web.access.ExceptionTranslationFilter@7d87ba3f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@52349a9c]
+2019-10-14 [restartedMain] -Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 [restartedMain] -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-14 [restartedMain] -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-14 [restartedMain] -Tomcat started on port(s): 8082 (http) with context path ''
+2019-10-14 [restartedMain] -Started TicketBookingApplication in 4.783 seconds (JVM running for 5.602)
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Initializing Servlet 'dispatcherServlet'
+2019-10-14 [RMI TCP Connection(1)-127.0.0.1] -Completed initialization in 9 ms
+2019-10-14 [http-nio-8082-exec-3] -HHH000397: Using ASTQueryTranslatorFactory
